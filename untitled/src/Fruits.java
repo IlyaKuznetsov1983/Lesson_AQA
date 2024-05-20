@@ -1,4 +1,4 @@
-public class fruits {
+public class Fruits {
     public static void main (String [] args) {
         printThreeWords();
     }
