@@ -20,6 +20,6 @@ public class Persons {
     }
 
     public void printInfo() {
-        System.out.println("fio" + " " + this.fio + "post" + " " + this.post + " " + "email" + " " + this.email + " " + "age" + " " + this.age);
+        System.out.println("fio" + ": " + this.fio + " " + "post" + ": " + this.post + " " + "email" + ": " + this.email + " " + "telephone" + ": " + this.telephone + " " + "cash" + ": " + this.cash + " " + "age" + ": " + this.age);
     }
 }
