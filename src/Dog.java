@@ -1,4 +1,5 @@
 public class Dog extends Animals {
+
     private static int dogCount = 0;
 
     public Dog() {
