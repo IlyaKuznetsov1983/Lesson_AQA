@@ -1,3 +1,8 @@
-public class Animals {
-    public
+public abstract class Animals {
+    private static int animalsCount = 0;
+     String name;
+
+    public Animals(); {
+        animalscount++;
+    }
 }
