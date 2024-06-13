@@ -6,4 +6,25 @@ public class Cat extends Animals {
     public Cat() {
         catCount++;
     }
+    public void eatFromBowl(Bowl bowlForFood, int foodToEat) {
+        if (bowlForFood.getFoodAmount() >= foodToEat) {
+            System.out.println("Кот ест");
+            satiety = true;
+        } else {
+            System.out.println("Кот голодный");
+        }
+    }
+
+    @Override
+    public void run(int distance) {
+        if (distance >= 0 && distance <= 200) {
+            System.out.println("Кот бежит " + distance + " метров");
+        } else System.out.println("Это плохо для котика");
+    }
+
+    @Override
+    public void swim(int distance) {
+        System.out.println("Кот не любит воду");
+    }
+
 }
