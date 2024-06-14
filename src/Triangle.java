@@ -1,23 +1,27 @@
-public class Circle implements Figures {
+public class Triangle implements Figures {
     private String backgroundColor;
     private String borderColor;
-    private double r;
-
-    public Circle(String backgroundColor, String borderColor, double r) {
+    private double a;
+    private double b;
+    private double c;
+    private double h;
+    public Triangle(String backgroundColor, String borderColor, double a, double b, double c, double h) {
         this.backgroundColor = backgroundColor;
         this.borderColor = borderColor;
-        this.r = r;
+        this.a = a;
+        this.b = b;
+        this.c = c;
+        this.h = h;
     }
-
-    public double areaCalculation() {
-        return 3.14 * (r * r);
+    public double areaCalculation(){
+        return a * h / 2;
     };
-    public double perimeterCalculation() {
-        return  2 * 3.14 * r;
+    public double perimeterCalculation(){
+        return a + b + c;
     };
 
     public void printInfo() {
-        System.out.println("Circle : ");
+        System.out.println("Triangle : ");
         System.out.println(
                 "\t background color - " + backgroundColor + "\n"
                         + "\t border color - " + borderColor + "\n"

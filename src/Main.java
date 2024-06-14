@@ -28,6 +28,10 @@ public class Main {
 
             Figures circle = new Circle("green", "orange", 4);
             circle.printInfo();
+            Figures triangle = new Triangle("yellow", "grey", 12, 14, 16, 10);
+            triangle.printInfo();
+
+
         }
     }
 }

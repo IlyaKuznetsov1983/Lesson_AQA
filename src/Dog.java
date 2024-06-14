@@ -5,7 +5,6 @@ public class Dog extends Animals {
         dogCount++;
     }
 
-
     @Override
 
     public void running(int distance) {
