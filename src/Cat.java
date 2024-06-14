@@ -1,3 +1,4 @@
+
 public class Cat extends Animals {
 
     private static int catCount = 0;
@@ -7,7 +8,7 @@ public class Cat extends Animals {
         catCount++;
     }
     public void eatFromBowl(Bowl bowlForFood, int foodToEat) {
-        if (bowlForFood.getFoodAmount() >= foodToEat) {
+        if (bowlForFood.getAmountFood() >= foodToEat) {
             System.out.println("Кот ест");
             satiety = true;
         } else {
@@ -16,14 +17,14 @@ public class Cat extends Animals {
     }
 
     @Override
-    public void run(int distance) {
+    public void running(int distance) {
         if (distance >= 0 && distance <= 200) {
             System.out.println("Кот бежит " + distance + " метров");
         } else System.out.println("Это плохо для котика");
     }
 
     @Override
-    public void swim(int distance) {
+    public void swimming(int distance) {
         System.out.println("Кот не любит воду");
     }
 

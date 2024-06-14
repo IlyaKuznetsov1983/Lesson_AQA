@@ -1,21 +1,21 @@
 public class Bowl {
 
-    private int foodAmount;
+    private int AmountFood;
 
-    public Bowl(int foodAmount) {
-        this.foodAmount = foodAmount;
+    public Bowl(int AmountFood) {
+        this.AmountFood = AmountFood;
     }
 
-    public int getFoodAmount() {
-        return foodAmount;
+    public int getAmountFood() {
+        return AmountFood;
     }
 
-    public void setFoodAmount(int foodAmount) {
-        if (foodAmount <= 0 ) System.out.println("Illegal argument");
-        this.foodAmount = foodAmount;
+    public void setAmountFood(int AmountFood) {
+        if (AmountFood <= 0 ) System.out.println("ноль");
+        this.AmountFood = AmountFood;
     }
 
-    public void addFood(int foodAmount) {
-        this.foodAmount += foodAmount;
+    public void addFood(int AmountFood) {
+        this.AmountFood += AmountFood;
     }
 }
