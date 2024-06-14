@@ -30,6 +30,8 @@ public class Main {
             circle.printInfo();
             Figures triangle = new Triangle("yellow", "grey", 12, 14, 16, 10);
             triangle.printInfo();
+            Figures rectangle = new Rectangle("brown", "pink", 15, 20);
+            rectangle.printInfo();
 
 
         }

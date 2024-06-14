@@ -17,7 +17,7 @@ public class Circle implements Figures {
     };
 
     public void printInfo() {
-        System.out.println("Circle : ");
+        System.out.println("Circle: ");
         System.out.println(
                 "\t background color - " + backgroundColor + "\n"
                         + "\t border color - " + borderColor + "\n"
