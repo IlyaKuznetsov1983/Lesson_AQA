@@ -25,6 +25,9 @@ public class Main {
         for (Cat cat : catsArray) {
             cat.eatFromBowl(bowl, 8);
             System.out.println(cat.satiety);
+
+            Figures circle = new Circle("green", "orange", 4);
+            circle.printInfo();
         }
     }
 }
