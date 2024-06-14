@@ -11,11 +11,11 @@ public class Rectangle implements Figures {
         this.b = b;
     }
 
-    public double areaCalculation() {
+    public double calculationArea() {
         return a * b;
     }
 
-    public double perimeterCalculation() {
+    public double calculationPerimeter() {
         return 2 * (a + b);
     }
 
@@ -24,8 +24,8 @@ public class Rectangle implements Figures {
         System.out.println(
                 "\t background color - " + backgroundColor + "\n"
                         + "\t border color - " + borderColor + "\n"
-                        + "\t area - " + areaCalculation() + "\n"
-                        + "\t perimeter - " + perimeterCalculation() + "\n"
+                        + "\t area - " + calculationArea() + "\n"
+                        + "\t perimeter - " + calculationPerimeter() + "\n"
         );
     }
 }

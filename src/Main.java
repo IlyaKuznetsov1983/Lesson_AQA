@@ -26,11 +26,11 @@ public class Main {
             cat.eatFromBowl(bowl, 8);
             System.out.println(cat.satiety);
 
-            Figures circle = new Circle("green", "orange", 4);
+            Figures circle = new Circle("зеленый", "оранжевый", 4);
             circle.printInfo();
-            Figures triangle = new Triangle("yellow", "grey", 12, 14, 16, 10);
+            Figures triangle = new Triangle("желтый", "серый", 12, 14, 16, 10);
             triangle.printInfo();
-            Figures rectangle = new Rectangle("brown", "pink", 15, 20);
+            Figures rectangle = new Rectangle("коричневый", "розовый", 15, 20);
             rectangle.printInfo();
 
 

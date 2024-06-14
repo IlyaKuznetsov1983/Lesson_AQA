@@ -13,10 +13,10 @@ public class Triangle implements Figures {
         this.c = c;
         this.h = h;
     }
-    public double areaCalculation(){
+    public double calculationArea(){
         return a * h / 2;
     };
-    public double perimeterCalculation(){
+    public double calculationPerimeter(){
         return a + b + c;
     };
 
@@ -25,8 +25,8 @@ public class Triangle implements Figures {
         System.out.println(
                 "\t background color - " + backgroundColor + "\n"
                         + "\t border color - " + borderColor + "\n"
-                        + "\t area - " + areaCalculation() + "\n"
-                        + "\t perimeter - " + perimeterCalculation() + "\n"
+                        + "\t area - " + calculationArea() + "\n"
+                        + "\t perimeter - " + calculationPerimeter() + "\n"
         );
     }
 }

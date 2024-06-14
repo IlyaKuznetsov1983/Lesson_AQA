@@ -9,10 +9,10 @@ public class Circle implements Figures {
         this.r = r;
     }
 
-    public double areaCalculation() {
+    public double calculationArea() {
         return 3.14 * (r * r);
     };
-    public double perimeterCalculation() {
+    public double calculationPerimeter() {
         return  2 * 3.14 * r;
     };
 
@@ -21,8 +21,8 @@ public class Circle implements Figures {
         System.out.println(
                 "\t background color - " + backgroundColor + "\n"
                         + "\t border color - " + borderColor + "\n"
-                        + "\t area - " + areaCalculation() + "\n"
-                        + "\t perimeter - " + perimeterCalculation() + "\n"
+                        + "\t area - " + calculationArea() + "\n"
+                        + "\t perimeter - " + calculationPerimeter() + "\n"
         );
     }
 }

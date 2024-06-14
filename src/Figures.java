@@ -1,6 +1,6 @@
 public interface Figures{
-        double perimeterCalculation();
-        double areaCalculation();
+        double calculationPerimeter();
+        double calculationArea();
 
         void printInfo();
     }

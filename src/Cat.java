@@ -19,7 +19,7 @@ public class Cat extends Animals {
     @Override
     public void running(int distance) {
         if (distance >= 0 && distance <= 200) {
-            System.out.println("Кот бежит " + distance + " метров");
+            System.out.println("Кот пробежал " + distance + " метров");
         } else System.out.println("Это плохо для котика");
     }
 

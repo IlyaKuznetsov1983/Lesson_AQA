@@ -9,14 +9,14 @@ public class Dog extends Animals {
 
     public void running(int distance) {
         if (distance >= 0 && distance <= 500) {
-            System.out.println("Собака бежит " + distance + " метров");
-        } else System.out.println("Собака не хочет");
+            System.out.println("Пёс пробежал " + distance + " метров");
+        } else System.out.println("Пёс не хочет");
     }
 
     @Override
     public void swimming(int distance) {
         if (distance >= 0 && distance <= 10) {
-            System.out.println("Собака плывет " + distance + " метров");
-        } else System.out.println("Собака устал");
+            System.out.println("Пёс проплыл " + distance + " метров");
+        } else System.out.println("Пёс устал как собака");
     }
 }
