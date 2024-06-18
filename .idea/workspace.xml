@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b70230bc-5708-4c50-bb11-8c03a3460c9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MyArrayDataExeption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyArraySizeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/MyArrayDataExeption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/MyArrayDataException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/MyArraySizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/MyArraySizeException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,5 +83,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>4</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
