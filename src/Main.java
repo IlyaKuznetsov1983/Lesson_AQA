@@ -44,12 +44,13 @@ public class Main {
 
         System.out.println("..............................");
 
-        PhoneDirectory.addNumberPhone("Панин", "Алексей","+79533551109");
+
         PhoneDirectory.addNumberPhone("Монгол", "Олег", "+79312543879");
         PhoneDirectory.addNumberPhone("Кологривый", "Никита","+79455557687");
         PhoneDirectory.addNumberPhone("Ивлев", "Павел", "+79477777555");
         PhoneDirectory.addNumberPhone("Джигурда", "Никита", "+79212773888");
-        PhoneDirectory.addNumberPhone("Хасбулла", "Магомедов","+79476543989");
+        PhoneDirectory.addNumberPhone("Хасбулла", "Магомедов","+79499943922");
+        PhoneDirectory.addNumberPhone("Кологривый", "Василий","+794435367876");
         PhoneDirectory.addNumberPhone("Харламов", "Игорь", "+79477987654");
 
         System.out.println(PhoneDirectory.getNumberPhone("Кологривый"));
