@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07a2d875-7d5c-40d4-8c19-0cc52e8eb04f" name="Changes" comment="'init'">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factorial/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Factorial/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit_5/junitFiveTest.java" afterDir="false" />
+    <list default="true" id="07a2d875-7d5c-40d4-8c19-0cc52e8eb04f" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/TestFactorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Factorial.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TestingFactorial.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +50,8 @@
     "JUnit.junitFiveTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.FactorialTest.executor": "Run",
+    "TestNG.TestFactorial.executor": "Run",
     "git-widget-placeholder": "Lesson__14__testng",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/makak/IdeaProjects/Lesson_14_junit_5/src/main/java/org/example/Main.java",
@@ -64,7 +60,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.junitFiveTest">
+  <component name="RunManager" selected="TestNG.TestFactorial">
     <configuration name="junit5FactorialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lesson_14_junit_5" />
       <extension name="coverage">
@@ -76,54 +72,6 @@
       <option name="PACKAGE_NAME" value="junit_5" />
       <option name="MAIN_CLASS_NAME" value="junit_5.junit5FactorialTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="junit5FactorialTest.testFactorialNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson_14_junit_5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit_5" />
-      <option name="MAIN_CLASS_NAME" value="junit_5.junit5FactorialTest" />
-      <option name="METHOD_NAME" value="testFactorialNegative" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="junit5FactorialTest.testFactorialPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson_14_junit_5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit_5" />
-      <option name="MAIN_CLASS_NAME" value="junit_5.junit5FactorialTest" />
-      <option name="METHOD_NAME" value="testFactorialPositive" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="junit5FactorialTest.testFactorialZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lesson_14_junit_5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit_5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit_5" />
-      <option name="MAIN_CLASS_NAME" value="junit_5.junit5FactorialTest" />
-      <option name="METHOD_NAME" value="testFactorialZero" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,13 +91,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FactorialTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lesson_14_junit_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNG" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.FactorialTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFactorial" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lesson_14_junit_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNG" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.TestFactorial" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFactorial.testFactorialNegative" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lesson_14_junit_5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNG" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.TestFactorial" />
+      <option name="METHOD_NAME" value="testFactorialNegative" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestFactorial" />
+        <item itemvalue="TestNG.TestFactorial.testFactorialNegative" />
         <item itemvalue="JUnit.junitFiveTest" />
+        <item itemvalue="TestNG.FactorialTest" />
         <item itemvalue="JUnit.junit5FactorialTest" />
-        <item itemvalue="JUnit.junit5FactorialTest.testFactorialZero" />
-        <item itemvalue="JUnit.junit5FactorialTest.testFactorialPositive" />
-        <item itemvalue="JUnit.junit5FactorialTest.testFactorialNegative" />
       </list>
     </recent_temporary>
   </component>
@@ -178,12 +178,22 @@
       <option name="project" value="LOCAL" />
       <updated>1719519010828</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix">
+      <option name="closed" value="true" />
+      <created>1719654607447</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719654607448</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="'init'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'init'" />
+    <MESSAGE value="'fix'" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
