@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d16f1d44-07b5-4af4-8081-36af9c97e5a8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testPostmanEcho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testPostmanEcho.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.testPostmanEcho.executor": "Run",
+    "JUnit.testPostmanEcho.testGetRequest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "LessonSeventeen",
@@ -47,7 +47,7 @@
     "onboarding.tips.debug.path": "C:/Users/makak/IdeaProjects/PostmanEcho/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.testPostmanEcho.testGetRequest">
     <configuration name="testPostmanEcho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PostmanEcho" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,8 +57,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testPostmanEcho.testGetRequest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PostmanEcho" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testPostmanEcho" />
+      <option name="METHOD_NAME" value="testGetRequest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.testPostmanEcho.testGetRequest" />
         <item itemvalue="JUnit.testPostmanEcho" />
       </list>
     </recent_temporary>
