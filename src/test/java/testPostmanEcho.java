@@ -97,4 +97,55 @@ public class testPostmanEcho {
                 .body("headers.cookie", nullValue())
                 .extract().response();
     }
+    @Test
+    public void testPatchRequest() {
+        Response response = given()
+                .log().all()
+                .baseUri("https://postman-echo.com")
+                .contentType("text/plain")
+                .body("This is expected to be sent back as part of response body.")
+                .when()
+                .patch("/patch")
+                .then()
+                .log().all()
+                .statusCode(200)
+                .body("data", equalTo("This is expected to be sent back as part of response body."))
+                .body("headers.host", equalTo("postman-echo.com"))
+                .body("headers.x-request-start", notNullValue())
+                .body("headers.connect-lenght", nullValue())
+                .body("headers.x-forwarded-proto", equalTo("https"))
+                .body("headers.x-forwarded-port", equalTo("443"))
+                .body("headers.x-amzn-trace-id", notNullValue())
+                .body("headers.accept", equalTo("*/*"))
+                .body("headers.postman-token", nullValue())
+                .body("headers.accept-encoding", equalTo("gzip,deflate"))
+                .body("headers.cookie", nullValue())
+                .extract().response();
+    }
+
+    @Test
+    public void testDeleteRequest() {
+        Response response = given()
+                .log().all()
+                .baseUri("https://postman-echo.com")
+                .contentType("text/plain")
+                .body("This is expected to be sent back as part of response body.")
+                .when()
+                .delete("/delete")
+                .then()
+                .log().all()
+                .statusCode(200)
+                .body("data", equalTo("This is expected to be sent back as part of response body."))
+                .body("headers.host", equalTo("postman-echo.com"))
+                .body("headers.x-request-start", notNullValue())
+                .body("headers.connect-lenght", nullValue())
+                .body("headers.x-forwarded-proto", equalTo("https"))
+                .body("headers.x-forwarded-port", equalTo("443"))
+                .body("headers.x-amzn-trace-id", notNullValue())
+                .body("headers.accept", equalTo("*/*"))
+                .body("headers.postman-token", nullValue())
+                .body("headers.accept-encoding", equalTo("gzip,deflate"))
+                .body("headers.cookie", nullValue())
+                .extract().response();
+    }
 }
